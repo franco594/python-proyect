@@ -1,0 +1,2 @@
+# Ignorar archivos de caché de VScode
+.vscode-root/Cache/
