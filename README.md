@@ -29,4 +29,18 @@ como administrador: <br>
     git pull origin main
     Usuario: franco594
     Password: accessToken # el que hemos creado y debemos guardar bien
+    which python3 # Nuestra la ruta donde se está ejecutando python3
 ```
+# Archivo requirements.txt
+    <br>Vamos a ver este archivo, este gestiona todas las dependencias y en que versiones se necesitan, vamos a dejar aquí los comandos para alguien logre contribuir con este proyecto, los comandos son los siguientes
+    <br>
+
+    ```sh
+        git clone https://...
+        cd app
+        python3 -m venv env # Se debe crear el entorno virtual, este no se comparte desde github
+        source env/bin/activate # ctivamos el entorno en linux
+        venv/Script/activate # Activa el entorno en windows
+        pip3 install -r requirements.txt # Instala las dependencias el -r significa reutilizar
+        python3 main.py
+    ```
